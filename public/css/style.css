@@ -304,11 +304,24 @@ header .intro-text {
     }
 }
 
+
 /* Features Section */
 #features {
-    background: #f6f6f6;
+    background: #b9d1d8;
+    background: linear-gradient(to right, rgb(106, 135, 232) 0%, #2740b2 100%);
     padding: 50px 0;
     /* Ajuste del espaciado en la parte superior e inferior */
+}
+
+#features h3 {
+    font-size: 32px;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+#features p {
+    font-size: 24px;
+    color: #fff;
 }
 
 .feature-item {
@@ -337,6 +350,20 @@ header .intro-text {
         margin-bottom: 20px;
         /* Espacio entre elementos reducido para dispositivos móviles */
     }
+}
+
+/* Valores Section*/
+.valores {
+    background: url(../img/intro-bg.png) center center no-repeat;
+}
+
+/* Identidad Section */
+.identidad h3 {
+    color: #222222;
+}
+
+.identidad h2 {
+    color: #fff;
 }
 
 /* About Section */
@@ -387,6 +414,7 @@ header .intro-text {
     background: #fff;
     border-right: 0;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5%;
 }
 
 #about p {
@@ -455,6 +483,10 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
     padding: 100px 0;
+}
+
+#portfolio p {
+    font-size: 24px;
 }
 
 .portfolio-item {

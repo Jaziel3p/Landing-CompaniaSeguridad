@@ -29,8 +29,8 @@ export const Contact = (props) => {
     const telefono = e.target.elements.phone_number.value;
     //Cambiar estos datos para cada pagina y su respectivo contacto
     const nombreProp = "Ciudad Segura";
-    const correoProp = "contacto@ciudadsegura.com";
-    const pagina = "http://www.ciudadsegura.com/";
+    const correoProp = "contacto@seguridadalfonso13.com";
+    const pagina = "www.ciudadsegura.com";
 
     // Crear un objeto con los datos a enviar
     const data = {
@@ -247,8 +247,36 @@ export const Contact = (props) => {
               </p>
             </div>
           </div>
+
+          <div className="col-md-12">
+            <div className="row">
+              <div className="social">
+                <ul>
+                  <li>
+                    <a
+                      target="_blank"
+                      href={props.data ? props.data.facebook : "/"}
+                    >
+                      <i className="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  {/* <li>
+                    <a href={props.data ? props.data.twitter : "/"}>
+                      <i className="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.youtube : "/"}>
+                      <i className="fa fa-youtube"></i>
+                    </a>
+                  </li> */}
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
       <div id="footer">
         <div className="container text-center">
           <p>

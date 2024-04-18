@@ -160,7 +160,7 @@
     "address": "Av. Molino de Rosas 71, Molino de Rosas, Álvaro Obregón, 01470, CDMX",
     "phone": "5593167507",
     "phone2": "5621646732",
-    "email": "contacto@ciudadsegura.com",
+    "email": "contacto@seguridadalfonso13.com",
     "email2": "",
     "facebook": "https://www.facebook.com/profile.php?id=100084244841093"
   },
@@ -196,6 +196,23 @@
       "icon": "fa fa-paper-plane-o",
       "title": "Visión",
       "text": "Hacer de CDMX una ciudad que otorgue una verdadera protección y libertad a todos gracias a los Sistemas de Seguridad."
+    }
+  ],
+  "Valores": [
+    {
+      "icon": "fa fa-map",
+      "title": "Discreción",
+      "text": "absoluta sobre las actividades y sistemas de protección de todos y cada uno de nuestros clientes"
+    },
+    {
+      "icon": "fa fa-paper-plane-o",
+      "title": "Puntualidad",
+      "text": "en los tiempos acordados en cada caso"
+    },
+    {
+      "icon": "fa fa-paper-plane-o",
+      "title": "Calidad",
+      "text": "tanto en los materiales como en acabados y mano de obra para asegurar así la permanencia y buen funcionamiento de todos los elementos"
     }
   ]
 }

@@ -1,18 +1,26 @@
 import React from "react";
+/*Se rige en style.css con 'features'*/
 
-export const MisionVision = (props) => {
+export const Valores = (props) => {
   return (
-    <div id="features" className="text-center identidad">
-      <div className="container" style={{ width: "70%" }}>
+    <div
+      id="features"
+      className="text-center"
+      style={{
+        background:
+          "linear-gradient(to right, rgb(106, 135, 232) 0%, #d8d8d8 100%)",
+      }}
+    >
+      <div className="container" style={{ width: "90%" }}>
         <div className="col-md-10 col-md-offset-1 section-title">
-          <h2>Identidad</h2>
+          <h2>Valores</h2>
         </div>
-        <div className="row ">
+        <div className="row">
           {props.data
             ? props.data.map((d, i) => (
                 <div
                   key={`${d.title}-${i}`}
-                  className="col-xs-12 col-sm-6 col-md-6 col-lg-6"
+                  className="col-xs-12 col-sm-6 col-md-6 col-lg-4"
                 >
                   <div className="feature-item">
                     {" "}
