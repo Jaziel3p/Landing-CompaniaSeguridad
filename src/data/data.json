@@ -200,17 +200,17 @@
   ],
   "Valores": [
     {
-      "icon": "fa fa-map",
+      "icon": "fa fa-low-vision",
       "title": "Discreción",
       "text": "absoluta sobre las actividades y sistemas de protección de todos y cada uno de nuestros clientes"
     },
     {
-      "icon": "fa fa-paper-plane-o",
+      "icon": "fa fa-clock-o",
       "title": "Puntualidad",
       "text": "en los tiempos acordados en cada caso"
     },
     {
-      "icon": "fa fa-paper-plane-o",
+      "icon": "fa fa-diamond",
       "title": "Calidad",
       "text": "tanto en los materiales como en acabados y mano de obra para asegurar así la permanencia y buen funcionamiento de todos los elementos"
     }

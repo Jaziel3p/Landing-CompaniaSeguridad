@@ -3,7 +3,7 @@ import React from "react";
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container">
+      <div className="container" style={{ width: "90%" }}>
         <div className="navbar-header">
           <button
             type="button"
@@ -20,12 +20,12 @@ export const Navigation = (props) => {
           <a
             className="navbar-brand page-scroll"
             href="#page-top"
-            style={{ fontSize: "20px", display: "flex", alignItems: "center" }}
+            style={{ fontSize: "24px", display: "flex", alignItems: "center" }}
           >
             <img
               src="img/logo.png"
               alt="Logo"
-              style={{ maxHeight: "100px", margin: "30px" }}
+              style={{ maxHeight: "150px", margin: "30px" }}
             />{" "}
             Seguridad y Servicios Alfonso XIII
           </a>
